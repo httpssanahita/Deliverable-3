@@ -1,5 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
 
 data= pd.read_csv ("air_quality_health_dataset.csv")
 
@@ -17,6 +16,4 @@ print(data.duplicated().drop_duplicates())
 print(pd.isnull(data).sum()) #There aren't any null values
 
 #d
-a= pd.to_datetime(data["date"])
-
-print(a)
+print(pd.to_datetime(data["date"]))
