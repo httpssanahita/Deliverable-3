@@ -49,3 +49,13 @@ sns.catplot(data=data.head(365), x="city", y="humidity", hue="population_density
 sns.catplot(data=data.head(365), x="city", y="aqi", hue="population_density", errorbar=("pi", 90), linestyles="--", kind="point")
 
 #j)
+
+
+#6.3
+#a)
+
+
+#b)
+
+
+#c)
