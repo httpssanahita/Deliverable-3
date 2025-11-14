@@ -1,3 +1,6 @@
+    #Teammates: Anahita N. , Jasmine B. , Ruby F.
+    #Description: Univariate graphical EDA
+
 import pandas as pd
 import seaborn as sns
 
@@ -16,5 +19,5 @@ for i in numerical_data:
     sns.displot(data, x=i, hue="population_density", stat="density", common_norm=False)
 #f)Kernel Density Estimation
     sns.displot(data, x=i, kind="kde", bw_adjust=1.5)
-#gEmpirical Cumulative Distributions
+#g) Empirical Cumulative Distributions
     sns.displot(data, x=i, hue="city", kind="ecdf")
