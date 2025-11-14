@@ -60,23 +60,224 @@ pm2_5_skew= data["pm2_5"].skew()
 print(pm2_5_skew)
 
 
-aqi_kurtosis = data["pm2_5"].kurt()
-print(aqi_kurtosis )
+pm2_5_kurtosis = data["pm2_5"].kurt()
+print(pm2_5_kurtosis )
 
 
 pm2_5_quartiles = data["pm2_5"].quantile([0.25, 0.5, 0.75])
 print(pm2_5_quartiles) 
 
 
-
-
 #3) pm10
+pm10_mean= data["pm10"].mean()
+print(pm10_mean) 
+
+pm10_median= data["pm10"].median()
+print(pm10_median) 
+
+
+pm10_mode= data['pm10'].mode()
+print(pm10_mode) 
+
+
+pm10_std= data["pm10"].std()
+print(pm10_std) 
+
+pm10_variance= data["pm10"].var()
+print(pm10_variance) 
+
+
+pm10_skew= data["pm10"].skew()
+print(pm10_skew)
+
+
+pm10_kurtosis = data["pm10"].kurt()
+print(pm10_kurtosis )
+
+
+pm10_quartiles = data["pm10"].quantile([0.25, 0.5, 0.75])
+print(pm10_quartiles) 
+
 #4) no2
+no2_mean= data["no2"].mean()
+print(no2_mean) 
+
+no2_median= data["no2"].median()
+print(no2_median) 
+
+
+no2_mode= data['no2'].mode()
+print(no2_mode) 
+
+
+no2_std= data["no2"].std()
+print(no2_std) 
+
+no2_variance= data["no2"].var()
+print(no2_variance) 
+
+
+no2_skew= data["no2"].skew()
+print(no2_skew)
+
+
+no2_kurtosis = data["no2"].kurt()
+print(no2_kurtosis )
+
+
+no2_quartiles = data["no2"].quantile([0.25, 0.5, 0.75])
+print(no2_quartiles) 
+
 #5) o3
+o3_mean= data["o3"].mean()
+print(o3_mean) 
+
+o3_median= data["o3"].median()
+print(o3_median) 
+
+
+o3_mode= data['o3'].mode()
+print(o3_mode) 
+
+
+o3_std= data["o3"].std()
+print(o3_std) 
+
+o3_variance= data["o3"].var()
+print(o3_variance) 
+
+
+o3_skew= data["o3"].skew()
+print(o3_skew)
+
+
+o3_kurtosis = data["o3"].kurt()
+print(o3_kurtosis )
+
+
+o3_quartiles = data["o3"].quantile([0.25, 0.5, 0.75])
+print(o3_quartiles) 
+
 #6) temperature 
+temperature_mean= data["temperature"].mean()
+print(temperature_mean) 
+
+temperature_median= data["temperature"].median()
+print(temperature_median) 
+
+
+temperature_mode= data['temperature'].mode()
+print(temperature_mode) 
+
+
+temperature_std= data["temperature"].std()
+print(temperature_std) 
+
+temperature_variance= data["temperature"].var()
+print(temperature_variance) 
+
+
+temperature_skew= data["temperature"].skew()
+print(temperature_skew)
+
+
+temperature_kurtosis = data["temperature"].kurt()
+print(temperature_kurtosis )
+
+
+temperature_quartiles = data["temperature"].quantile([0.25, 0.5, 0.75])
+print(temperature_quartiles)
+ 
 #7) humidity
+humidity_mean= data["humidity"].mean()
+print(humidity_mean) 
+
+humidity_median= data["humidity"].median()
+print(humidity_median) 
+
+
+humidity_mode= data['humidity'].mode()
+print(humidity_mode) 
+
+
+humidity_std= data["humidity"].std()
+print(humidity_std) 
+
+humidity_variance= data["humidity"].var()
+print(humidity_variance) 
+
+
+humidity_skew= data["humidity"].skew()
+print(humidity_skew)
+
+
+humidity_kurtosis = data["humidity"].kurt()
+print(humidity_kurtosis )
+
+
+humidity_quartiles = data["humidity"].quantile([0.25, 0.5, 0.75])
+print(humidity_quartiles)
+
+
 #8) hospital_admissions
+hospital_admissions_mean= data["hospital_admissions"].mean()
+print(hospital_admissions_mean) 
+
+hospital_admissions_median= data["hospital_admissions"].median()
+print(hospital_admissions_median) 
+
+
+hospital_admissions_mode= data['hospital_admissions'].mode()
+print(hospital_admissions_mode) 
+
+
+hospital_admissions_std= data["hospital_admissions"].std()
+print(hospital_admissions_std) 
+
+hospital_admissions_variance= data["hospital_admissions"].var()
+print(hospital_admissions_variance) 
+
+
+hospital_admissions_skew= data["hospital_admissions"].skew()
+print(hospital_admissions_skew)
+
+
+hospital_admissions_kurtosis = data["hospital_admissions"].kurt()
+print(hospital_admissions_kurtosis )
+
+
+hospital_admissions_quartiles = data["hospital_admissions"].quantile([0.25, 0.5, 0.75])
+print(hospital_admissions_quartiles)
+
 #9) hospital_capacity
+hospital_capacity_mean= data["hospital_capacity"].mean()
+print(hospital_capacity_mean) 
+
+hospital_capacity_median= data["hospital_capacity"].median()
+print(hospital_capacity_median) 
+
+
+hospital_capacity_mode= data['hospital_capacity'].mode()
+print(hospital_capacity_mode) 
+
+
+hospital_capacity_std= data["hospital_capacity"].std()
+print(hospital_capacity_std) 
+
+hospital_capacity_variance= data["hospital_capacity"].var()
+print(hospital_admissions_variance) 
+
+
+hospital_capacity_skew= data["hospital_capacity"].skew()
+print(hospital_capacity_skew)
+
+
+hospital_capacity_kurtosis = data["hospital_capacity"].kurt()
+print(hospital_capacity_kurtosis )
+
+
+hospital_capacity_quartiles = data["hospital_capacity"].quantile([0.25, 0.5, 0.75])
+print(hospital_capacity_quartiles)
 
 
 # Manipulating categorical variables
@@ -90,7 +291,7 @@ city_proportion= data["city"].value_counts(normalize=True)
 print(city_proportion)
 
 city_mode= data["city"].mode()
-print(city_mode) # Delhi
+print(city_mode) 
 
 city_unique= data["city"].nunique()
 print(city_unique) 
