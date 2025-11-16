@@ -57,7 +57,7 @@ sns.displot(data, x="population_density")
 
 #6.3
 #a)
-sns.displot(data.head(1826), x="temperature", y="aqi", binwidth=(5,50))
+sns.displot(data.head(1826), x="temperature", y="aqi", binwidth=(5,50), cbar=True)
 
 #b)
 sns.displot(data, x="o3", hue="city", kind="kde", bw_adjust=1.5)
