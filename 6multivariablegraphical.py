@@ -49,7 +49,7 @@ sns.swarmplot(data=data.head(1826), x="city", y="no2", color="k", size=3, ax=g.a
 #h)
 sns.catplot(data=data.head(365), x="city", y="no2", hue="population_density", errorbar=("pi", 97), kind="bar")
 
-#i) #i don't think this is good
+#i)
 sns.catplot(data=data.head(1826), x="Year", y="o3", hue="population_density", errorbar=("pi", 90), linestyles="--", kind="point")
 
 #j)
