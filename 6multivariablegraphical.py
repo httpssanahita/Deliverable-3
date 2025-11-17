@@ -1,3 +1,6 @@
+ #Teammates: Anahita N. , Jasmine B. , Ruby F.
+ #Description: Multivariate graphical EDA
+
 import pandas as pd
 import seaborn as sns
 

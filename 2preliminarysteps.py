@@ -1,3 +1,7 @@
+        #Teammates: Anahita N. , Jasmine B. , Ruby F.
+        #Description: Preliminary steps
+        
+        
 import pandas as pd
 
 data= pd.read_csv ("air_quality_health_dataset.csv")

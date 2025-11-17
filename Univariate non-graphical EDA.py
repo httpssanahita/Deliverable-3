@@ -1,5 +1,6 @@
     #Teammates: Anahita N. , Jasmine B. amd Ruby F.
-
+    # description: Univariate non-graphical EDA
+    
 import pandas as pd
 
 data= pd.read_csv ("air_quality_health_dataset.csv")
